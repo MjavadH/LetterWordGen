@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{936569E8-81B5-414A-B9DC-C3156A9602A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Code2</RootNamespace>
-    <AssemblyName>Code2</AssemblyName>
+    <RootNamespace>LetterWordGen</RootNamespace>
+    <AssemblyName>LetterWordGen</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>LetterWordGen.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
